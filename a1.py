@@ -28,3 +28,5 @@ def generate_squares(start, stop):
     for i in range(start, stop):
         yield i ** 2
 
+print(rect_area(4,8))
+print(circle_area(5))
