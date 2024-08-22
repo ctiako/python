@@ -36,3 +36,17 @@ print("Squares Set: ", squares_set)
 print("Generated Squares from 2 to 8: ")
 for square in generate_squares(2,8):
     print(square)
+
+
+#Solution#
+rectangle area:  32
+circle area:  78.53982
+Perfect Squares:  (1, 4, 9, 16, 25, 36, 49, 64, 81, 100)
+Squares Set:  {64, 1, 4, 100, 81}
+Generated Squares from 2 to 8: 
+4
+9
+16
+25
+36
+49
