@@ -28,5 +28,11 @@ def generate_squares(start, stop):
     for i in range(start, stop):
         yield i ** 2
 
-print(rect_area(4,8))
-print(circle_area(5))
+
+print("rectangle area: ", rect_area(4,8))
+print("circle area: ", circle_area(5))
+print("Perfect Squares: ", perfect_squares)
+print("Squares Set: ", squares_set)
+print("Generated Squares from 2 to 8: ")
+for square in generate_squares(2,8):
+    print(square)
